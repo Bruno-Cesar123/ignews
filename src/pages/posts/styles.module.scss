@@ -2,6 +2,7 @@
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 2rem;
+
 }
 
 .posts {
@@ -13,7 +14,7 @@
 
     & + a {
       margin-top: 2rem;
-      padding: 2rem;
+      padding-top: 2rem;
       border-top: 1px solid var(--gray-700);
     }
 
