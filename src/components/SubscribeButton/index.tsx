@@ -4,7 +4,6 @@ import { getStripeJs } from '../../services/stripe-js';
 import { api } from '../../services/api';
 import styles from './styles.module.scss';
 
-
 export function SubscribeButton() {
   const [session] = useSession();
   const router = useRouter();
